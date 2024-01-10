@@ -1,8 +1,9 @@
-# React + Vite
+# Próximas atualizações
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+() Estilização do index.html: Adicionar Icon e mudar o Title da página
+() Adicionar gráficos na tela inicial
+() Adicionar o Footer com nome, copyright e icons pro github, linkedin
+() Estilizar melhor o Header
+() Colocar icons no Deletebtn
+() Mudar paleta de cores
+() Criar uma logo pro React Stock

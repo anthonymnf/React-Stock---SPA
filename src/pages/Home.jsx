@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import useStock from "../hooks/useStock";
+import { BarChart } from "../components/BarChart";
 
 export default function Home() {
   const { items } = useStock();
@@ -30,18 +31,21 @@ export default function Home() {
           Inventário total
           <span>{inventoryTotal}</span>
         </div>
-        <div className="dashboard-card">
+        <div className="dashboard-card cardRecent">
           Itens recentes
           <span>{recentTotal}</span>
         </div>
-        <div className="dashboard-card">
+        <div className="dashboard-card cardEnding">
           Itens acabando
           <span>{lowQuantityTotal}</span>
         </div>
       </div>
+      <div className="chartContainer">
+        <BarChart />
+      </div>
       <div className="row">
         <div className="recent">
-          <table>
+          <table className="table">
             <thead>
               <tr>
                 <th>Itens Recentes</th>
@@ -63,7 +67,7 @@ export default function Home() {
           </table>
         </div>
         <div className="low">
-          <table>
+          <table className="table">
             <thead>
               <tr>
                 <th>Itens acabando</th>

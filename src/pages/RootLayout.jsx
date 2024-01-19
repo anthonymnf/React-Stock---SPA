@@ -15,7 +15,7 @@ export default function RootLayout() {
       <div>
         <Outlet />
       </div>
-      <footer>Feito com React e React Router!</footer>
+      <footer>Copyright © Anthony Matheus.</footer>
     </>
   );
 }
